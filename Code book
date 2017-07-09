@@ -1,0 +1,18 @@
+#code book
+# describes all the variables
+1. xtest - X_test values from test folder
+2. ytest - y_test values from test folder
+3. subject.test - subject values from test folder
+4. test - cbinds xtest,ytest,subject.test
+5. xtrain - X_train values from train folder   
+6. ytrain - Y_train values from train folder
+7. subject.train - subject values from train
+8. train - cbinds xtrain, ytrain, subject.train
+9. x - rbinds xtrain, xtest
+10.y-  rbinds ytrain , ytest
+11. features - contains features
+12. features.mean.sd <- having only mean and standerd deviation features
+13. x.mean.sd <- mean and standerd deviation values
+14. activity.labels <- contains activity labels 
+15. dat - final merged data set having subject, y, x.mean.sd
+16. average - data frame having average of each variable grouped by subject and activity
